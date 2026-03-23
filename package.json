@@ -1,10 +1,32 @@
-{
-  "name": "web-biznez",
-  "version": "1.0.0",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "framer-motion": "^10.12.16",
-    "lucide-react": "^0.244.0"
-  }
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIZNEZ-DA-1 | Official Site</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #000; color: #fff; font-family: sans-serif; }
+        .gold-text { color: #D4AF37; }
+        .gold-border { border-color: #D4AF37; }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen p-6">
+    <header class="text-center mb-10">
+        <h1 class="text-6xl font-bold mb-2">BIZNEZ-DA-1</h1>
+        <p class="text-xl gold-text tracking-widest uppercase">Biznez On Da Beat</p>
+    </header>
+    <main class="w-full max-w-2xl border-2 gold-border p-8 rounded-lg bg-zinc-900 shadow-2xl">
+        <h2 class="text-2xl mb-6 border-b gold-border pb-2">Últimos Lanzamientos</h2>
+        <ul class="space-y-4">
+            <li class="flex justify-between items-center bg-black p-4 rounded border border-zinc-800">
+                <span>Mentalidad Elevada</span>
+                <span class="gold-text font-bold">PRÓXIMAMENTE</span>
+            </li>
+            <li class="flex justify-between items-center bg-black p-4 rounded border border-zinc-800">
+                <span>Modo Avión</span>
+                <span class="gold-text">Escuchar</span>
+            </li>
+        </ul>
+    </main>
+    <footer class="mt-10 text-zinc
